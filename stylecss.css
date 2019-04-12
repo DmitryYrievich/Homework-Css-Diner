@@ -1,0 +1,73 @@
+body {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	margin: 0;
+	color: #fee;
+}
+header {
+	height: 100px;
+	background-color: #555;
+}	
+.first {
+	font-size: 30px;
+	padding: 20px 0 7px;
+	margin: 0;
+}	
+.gege {
+	font-size: 15px;
+ 	color: #66a;
+}		
+main {
+	background-color: #444;
+	height: 800px;
+}
+section {
+	padding: 30px 25% 0;
+}
+section p {
+	float: center;
+	font-size: 25px;
+	background-color: #98a;
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding:20px;	
+}
+input {
+	width: 17px;
+	height: 17px;
+}
+input:focus {
+	cursor: pointer;
+}
+
+section p:nth-child(2n) {
+	background-color: #879;
+}
+
+section p:hover {
+	background-color: #667;
+	border: 20px;
+	border-color: #fff;
+	transition: all .1s ease-in;
+}
+.lastblock {
+	background-color: #555;
+	margin: 30px 25% !important;
+	height: 40px;
+	padding-top: 5px;
+}
+.second {
+	color: #f88;
+	text-align: center;
+	margin: 0px;
+	padding-top: 7px;
+	font-size: 17px;
+}
+input[type="checkbox"]:checked ~ span{
+	text-decoration: line-through;
+	color: #66a;
+}
+.backpanels {
+	text-align: center;
+	color: #f88;
+	margin: 0;
+}
